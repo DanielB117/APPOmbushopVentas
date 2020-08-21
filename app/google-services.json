@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "146688406731",
+    "firebase_url": "https://appgarageventas.firebaseio.com",
+    "project_id": "appgarageventas",
+    "storage_bucket": "appgarageventas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146688406731:android:d4d2d6088a5a364e29174e",
+        "android_client_info": {
+          "package_name": "com.example.appgarageventas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146688406731-869q75qes8hjim119mopkve7bc8e3fc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoRNYFH86dwo-oXesZoLTa4t1xk8Y-YlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146688406731-869q75qes8hjim119mopkve7bc8e3fc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

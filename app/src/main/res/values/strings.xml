@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">APP Garage ventas</string>
+    <string name="prefs_file">com.Daniel.appGarageVentas.PREFERENCE_FILE_KEY </string>
+</resources>
