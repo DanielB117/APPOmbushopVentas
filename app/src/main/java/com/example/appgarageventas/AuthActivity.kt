@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
+import androidx.recyclerview.widget.RecyclerView
 import com.android.volley.toolbox.JsonObjectRequest
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -21,13 +22,11 @@ class AuthActivity : AppCompatActivity() {
     private val GOOGLE_SING_IN = 100
 
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_auth)
-
-
-          "https://secure.ombushop.com/api/products?secret=abcdef1234567890"
-
         //analytics event
         val analytics = FirebaseAnalytics.getInstance(this)
         val bundle = Bundle()
@@ -148,16 +147,13 @@ class AuthActivity : AppCompatActivity() {
 
         }
     }
-    private void parseJson(){
-        String url="https://secure.ombushop.com/api/products?secret=66981711eab9ca20a7acf4b4c0414d4d025725078ac98ded32f74b66f0d16c6f"
-         JsonObjectRequest resquet=new JsonObjectRequest(Resquet.Method.GET, url,null,
-             (reponse) -> {
-            try {
-                JSONArray jsonArray = response . getJSONArray ("hits");
-for(int i=0;i<json)
 
-            }
-        }
-}
+
     }
+
+
+
+
+
+
 
