@@ -17,6 +17,8 @@ public class ModelItem {
         mtvStock = tvStock;
         mtvActualizado = tvActualizado;
         mimgProducto = imgProducto;
+
+
     }
 
 
