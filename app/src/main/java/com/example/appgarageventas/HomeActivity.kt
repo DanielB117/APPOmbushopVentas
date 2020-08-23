@@ -1,6 +1,7 @@
 package com.example.appgarageventas
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
@@ -40,6 +41,9 @@ class HomeActivity : AppCompatActivity() {
 
             FirebaseAuth.getInstance().signOut()
             onBackPressed()
+        }
+        imageView2.setOnClickListener{
+         startActivity(Intent(this,MainActivity::class.java))
         }
 
 
