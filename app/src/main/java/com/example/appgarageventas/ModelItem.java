@@ -19,6 +19,9 @@ public class ModelItem {
         mimgProducto = imgProducto;
 
 
+
+
+
     }
 
 
